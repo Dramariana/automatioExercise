@@ -1,0 +1,33 @@
+defaultTasks 'clean','test','aggregate'
+apply plugin: 'java'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:3.1.1")
+    }
+}
+
+apply plugin: 'net.serenity-bdd.aggregator'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "net.serenity-bdd:serenity-core:3.1.1"
+    testImplementation "net.serenity-bdd:serenity-junit:3.1.1"
+    implementation "net.serenity-bdd:serenity-cucumber:3.1.1"
+    implementation "net.serenity-bdd:serenity-screenplay-webdriver:3.1.1"
+    implementation "net.serenity-bdd:serenity-screenplay:3.1.1"
+
+    testImplementation('junit:junit:4.12')
+    testImplementation('org.slf4j:slf4j-simple:1.7.7')
+}
+gradle.startParameter.continueOnFailure = true
