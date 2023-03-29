@@ -14,8 +14,6 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 public class AutomationExerciseStepdefinitions {
 
@@ -24,18 +22,15 @@ public class AutomationExerciseStepdefinitions {
     AutomationExerciseProducts automationExerciseProducts;
 
 
-    @Managed(driver = "chrome", uniqueSession = true)
-    private WebDriver hisBrowser;
-
+    @Managed(driver = "firefox", uniqueSession = true)
+    public WebDriver hisBrowser;
     private final Actor user = Actor.named("Mariana");
 
 
     @Before
-
-    public void actorCanBrowseTheWeb() {
-        user.can(BrowseTheWeb.with(hisBrowser));
+    public  void actorCanBrowseTheWeb() {
+      user.can(BrowseTheWeb.with(hisBrowser));
         hisBrowser.manage().window().maximize();
-
     }
 
 

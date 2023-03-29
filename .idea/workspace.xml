@@ -7,11 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e57f42-30fa-4bc4-ab78-5240b6eb2aba" name="Changes" comment="Actualizacion3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/Maximize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
+    <list default="true" id="a0e57f42-30fa-4bc4-ab78-5240b6eb2aba" name="Changes" comment="Actualizacion driver">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/userinterfaces/AutomationExerciseGoogleVintage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/GoTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/GoTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/Maximize.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/com/automationExercise/stepdefinitions/AutomationExerciseStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/automationExercise/stepdefinitions/AutomationExerciseStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +79,33 @@
       <recent name="C:\Users\maria\IdeaProjects\automatioExerciseTest\src\test\resources\drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maria\IdeaProjects\automatioExerciseTest\src\test\resources\drivers" />
+      <recent name="C:\Users\maria\IdeaProjects\automatioExerciseTest\src\test\resources" />
+      <recent name="C:\Users\maria\IdeaProjects\automatioExerciseTest\src\test" />
       <recent name="C:\Users\maria\IdeaProjects\automatioExerciseTest\src\main\java\co.com.automatioExercise" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.AutomationExerciseRunner">
+    <configuration name="Maximize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.automationExercise.task.Maximize" />
+      <module name="automatioExerciseTest.main" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.automationExercise.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutomationExerciseRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -105,6 +132,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AutomationExerciseRunner" />
+        <item itemvalue="Application.Maximize" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680050098950</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Actualizacion driver">
+      <created>1680052045316</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680052045316</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,7 +196,8 @@
     <MESSAGE value="Initial AutomationExercise" />
     <MESSAGE value="Initial AutomationExercise2" />
     <MESSAGE value="Actualizacion3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion3" />
+    <MESSAGE value="Actualizacion driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion driver" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
