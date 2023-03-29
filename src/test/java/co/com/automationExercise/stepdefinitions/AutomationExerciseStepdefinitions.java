@@ -26,7 +26,9 @@ public class AutomationExerciseStepdefinitions {
 
     @Managed(driver = "chrome", uniqueSession = true)
     private WebDriver hisBrowser;
+
     private final Actor user = Actor.named("Mariana");
+
 
     @Before
 
@@ -35,6 +37,7 @@ public class AutomationExerciseStepdefinitions {
         hisBrowser.manage().window().maximize();
 
     }
+
 
     @Given("user enters automationExercise site")
     public void userEntersAutomationExerciseSite() {
