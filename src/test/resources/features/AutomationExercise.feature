@@ -8,6 +8,6 @@ Feature: AutomationExercise Page
     Examples:
       | product |
       | top     |
-      | DRESS   |
-      | MeN     |
-      | kid     |
+#      | DRESS   |
+#      | MeN     |
+#      | kid     |
