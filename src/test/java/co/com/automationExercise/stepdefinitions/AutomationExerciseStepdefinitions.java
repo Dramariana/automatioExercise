@@ -1,6 +1,7 @@
 package co.com.automationExercise.stepdefinitions;
 
 import co.com.automationExercise.task.GoTo;
+import co.com.automationExercise.task.ListProducts;
 import co.com.automationExercise.task.SearchProduct;
 import co.com.automationExercise.userinterfaces.AutomationExerciseHomePage;
 import co.com.automationExercise.userinterfaces.AutomationExerciseProducts;
@@ -28,8 +29,8 @@ public class AutomationExerciseStepdefinitions {
 
 
     @Before
-    public  void actorCanBrowseTheWeb() {
-      user.can(BrowseTheWeb.with(hisBrowser));
+    public void actorCanBrowseTheWeb() {
+        user.can(BrowseTheWeb.with(hisBrowser));
         hisBrowser.manage().window().maximize();
     }
 
@@ -41,15 +42,19 @@ public class AutomationExerciseStepdefinitions {
 
     @And("user select product button")
     public void userSelectProductButton() {
-        user.attemptsTo(GoTo.products());
+
+        user.attemptsTo(GoTo.products(hisBrowser));
     }
 
-    @When("user search product")
-    public void userSearchProduct() {
-        user.attemptsTo(SearchProduct.AutomationExercise());
+    @When("user search {string}")
+    public void userSearch(String product) {
+        user.attemptsTo(SearchProduct.AutomationExercise(product));
     }
 
     @Then("user can view all products related to search")
     public void userCanViewAllProductsRelatedToSearch() {
+        user.attemptsTo(ListProducts.found());
     }
+
+
 }

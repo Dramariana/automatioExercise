@@ -21,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    implementation project(path: ':')
+
     testImplementation 'net.serenity-bdd:serenity-core:3.6.12'
     testImplementation 'net.serenity-bdd:serenity-junit:3.6.12'
     implementation 'net.serenity-bdd:serenity-cucumber:3.6.12'

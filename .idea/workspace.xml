@@ -7,15 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e57f42-30fa-4bc4-ab78-5240b6eb2aba" name="Changes" comment="Actualizacion driver">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/userinterfaces/AutomationExerciseGoogleVintage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
+    <list default="true" id="a0e57f42-30fa-4bc4-ab78-5240b6eb2aba" name="Changes" comment="Finalizacion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/exceptions/Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/ListProducts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/GoTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/GoTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/Maximize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/SearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/SearchProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/userinterfaces/AutomationExerciseGoogleVintage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/userinterfaces/AutomationExerciseGoogleVintage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/userinterfaces/AutomationExerciseHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/userinterfaces/AutomationExerciseHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/userinterfaces/AutomationExerciseProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/automationExercise/userinterfaces/AutomationExerciseProducts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/com/automationExercise/stepdefinitions/AutomationExerciseStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/automationExercise/stepdefinitions/AutomationExerciseStepdefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AutomationExercise.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AutomationExercise.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +70,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maria/IdeaProjects/automatioExerciseTest/src/test/resources/drivers&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maria/IdeaProjects/BlankFactor-TEST&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -173,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680052045316</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="driver">
+      <created>1680098782342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680098782342</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +207,25 @@
     <MESSAGE value="Initial AutomationExercise2" />
     <MESSAGE value="Actualizacion3" />
     <MESSAGE value="Actualizacion driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion driver" />
+    <MESSAGE value="driver" />
+    <MESSAGE value="Finalizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizacion" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/GoTo.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/com/automationExercise/task/ListProducts.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
